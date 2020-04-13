@@ -1,0 +1,16 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DefineConstants>TRACE;WPF</DefineConstants>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MvvmLightStd10" Version="5.4.1.2" />
+    <PackageReference Include="Tom-Wells-NW.GraphX.Core.Controls" Version="3.0.0-alpha13" />
+  </ItemGroup>
+
+</Project>
